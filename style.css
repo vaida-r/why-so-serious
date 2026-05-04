@@ -77,7 +77,7 @@ section {
 }
 
 #rules-content-wrapper {
-    max-height: 250px;       /* arba 200–300px, kaip tau gražiau */
+    max-height: 500px;       /* arba 200–300px, kaip tau gražiau */
     overflow-y: auto;        /* vertikalus scroll */
     overflow-x: hidden;      /* kad nebūtų horizontalaus */
     transition: max-height 0.35s ease;
@@ -90,12 +90,12 @@ section {
 }
 
 #rules-content-wrapper.expanded {
-    max-height: 250px;   /* arba 200–300px, kaip tau gražiau */
+    max-height: 500px;   /* arba 200–300px, kaip tau gražiau */
     display: block;
 }
 
 #rules-content {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     white-space: pre-wrap;
 }
