@@ -95,7 +95,7 @@ section {
 }
 
 #rules-content {
-    font-size: 14px;
+    font-size: 1rem;       /*14px;*/
     margin-top: 10px;
     white-space: pre-wrap;
 }
