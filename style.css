@@ -82,7 +82,17 @@ section {
     overflow-x: hidden;      /* kad nebūtų horizontalaus */
     transition: max-height 0.35s ease;
     padding-right: 6px;      /* kad scroll bar neužliptų ant teksto */
+    scrollbar-width: none;   /* Firefox */
 }
+
+#rules-content-wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+/*    width: 8px; /* arba 0, jei nori visai paslėpti */*/
+}
+
+/*#rules-content-wrapper::-webkit-scrollbar-corner {*/
+/*    background: transparent;*/
+/*}*/
 
 #rules-content-wrapper.collapsed {
     max-height: 0;
