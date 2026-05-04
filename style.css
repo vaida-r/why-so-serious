@@ -235,6 +235,25 @@ section {
     border-radius: 6px;
 }
 
+@media (max-width: 600px) {
+    #modal {
+        font-size: 0.85rem;
+        width: 85%;
+        max-width: 85%;
+        padding: 0.8rem 1rem;
+    }
+
+    #modal table th,
+    #modal table td {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.4rem;
+    }
+
+    #modal-close {
+        font-size: 1.2rem;
+    }
+}
+
 #modal-close {
     position: absolute;
     top: 0.3rem;
