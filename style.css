@@ -105,7 +105,8 @@ section {
 @media (max-width: 600px) {
     #rules-content {
         font-size: 0.5rem !important;
-        font-family: Arial, sans-serif;
+        line-height: 1.3;
+        font-family: system-ui, Arial, sans-serif;
     }
 }
 
