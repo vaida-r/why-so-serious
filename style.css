@@ -77,13 +77,21 @@ section {
 }
 
 #rules-content-wrapper {
-    max-height: 0;
-    overflow: hidden;
+    max-height: 250px;       /* arba 200–300px, kaip tau gražiau */
+    overflow-y: auto;        /* vertikalus scroll */
+    overflow-x: hidden;      /* kad nebūtų horizontalaus */
     transition: max-height 0.35s ease;
+    padding-right: 6px;      /* kad scroll bar neužliptų ant teksto */
+}
+
+#rules-content-wrapper.collapsed {
+    max-height: 0;
+    display: none;
 }
 
 #rules-content-wrapper.expanded {
-    max-height: 900px; /* pakankamai daug, kad tilptų taisyklės */
+    max-height: 250px;   /* arba 200–300px, kaip tau gražiau */
+    display: block;
 }
 
 #rules-content {
@@ -91,7 +99,6 @@ section {
     margin-top: 10px;
     white-space: pre-wrap;
 }
-
 
 
 /* Ataskaitos pasirinkimas */
