@@ -100,6 +100,14 @@ section {
     white-space: pre-wrap;
 }
 
+@media (max-width: 600px) {
+    #rules-content {
+        font-size: 0.9rem;
+    }
+}
+
+
+
 
 /* Ataskaitos pasirinkimas */
 
