@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Why so serious?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Why so serious?</h1>
+</header>
+
+<main>
+
+    <!-- Taisyklės -->
+    <section id="rules-section">
+        <div id="rules-box">
+    	    <h2 id="rules-title">Idėja ir taisyklės</h2>
+
+	    <div id="rules-subtitle">
+        	<span class="rules-text">
+            	    KAM TIEK RIMTUMO ŠITAM ŽAIDIME, JEI VISKAS PRAŠOSI LINKSMYBIŲ?
+        	</span>
+
+        	<button id="rules-toggle" class="toggle-btn" aria-expanded="false">
+            	    <span class="toggle-icon">▼</span>
+        	</button>
+    	    </div>
+
+    	    <div id="rules-content-wrapper" class="collapsed">
+                <pre id="rules-content"></pre>
+    	    </div>
+	</div>
+    </section>
+
+
+    <!-- Ataskaitos pasirinkimas -->
+    <section id="report-selector">
+	<div id="report-select-row">
+	    <h2 id="report-title">Pasirink:</h2>
+	    <select id="reportSelect">
+                <option value="finish">Last cp - finišas</option>
+                <option value="start">Start – cp1</option>
+                <option value="devils_dozen">Velnio tuzinas</option>
+                <option value="unlucky4">Unlucky 4th</option>
+                <option value="golden">Auksinis taškas</option>
+	    </select>
+	</div> 
+    </section>
+
+
+    <!-- Rezultatai -->
+    <section id="results-section">
+        <h2 id="results-title">Last cp - finišas</h2>
+
+        <!-- Filtras pagal lytį -->
+        <div id="sex-filters">
+            <label><input type="radio" name="sexFilter" value="ALL" checked> Visi</label>
+            <label><input type="radio" name="sexFilter" value="M"> Vyrai</label>
+            <label><input type="radio" name="sexFilter" value="W"> Moterys</label>
+        </div>
+
+        <div id="results-container">
+            <!-- JS čia įdės lentelę -->
+        </div>
+    </section>
+
+</main>
+
+<!-- Modal langas bonusui -->
+<div id="modal-overlay" class="hidden">
+    <div id="modal">
+        <button id="modal-close">&times;</button>
+        <h3 id="modal-title">Varžybų rezultatai</h3>
+        <div id="modal-content">Kraunama...</div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

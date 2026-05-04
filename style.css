@@ -1,0 +1,236 @@
+/* Bendras stilius */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem 2rem;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background: #8A2BE2   /*  #222 */;
+    color: #39FF14   /*   #fff  */;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1.5rem 2rem 2rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Taisyklės */
+
+#rules-box {
+    margin-bottom: 20px;
+}
+
+#rules-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#rules-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-btn:hover .toggle-icon {
+    color: #7a7a7a;
+}
+
+
+.toggle-icon {
+    font-size: 20px;
+    transition: transform 0.25s ease;
+}
+
+.toggle-icon.rotated {
+    transform: rotate(180deg);
+}
+
+#rules-content-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+#rules-content-wrapper.expanded {
+    max-height: 900px; /* pakankamai daug, kad tilptų taisyklės */
+}
+
+#rules-content {
+    font-size: 16px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+
+
+/* Ataskaitos pasirinkimas */
+
+#report-selector select {
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+/* Filtras pagal lytį */
+
+#sex-filters {
+    margin: 0.5rem 0 1rem;
+}
+
+#sex-filters label {
+    margin-right: 1rem;
+}
+
+#report-select-row {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* tarpas tarp žodžio ir dropdown */
+    margin-bottom: 20px;
+}
+
+#report-select-row label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#reportSelect {
+    font-size: 18px;
+    padding: 6px 10px;
+}
+
+#report-title {
+    font-size: 24px;   /* tikras h2 dydis 32 px*/
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* Lentelė */
+
+#results-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+#results-container th,
+#results-container td {
+    border: 1px solid #ddd;
+    padding: 0.45rem 0.6rem;
+    text-align: left;
+}
+
+#results-container th {
+    background: #eee;
+    font-weight: bold;
+}
+
+.details-row {
+    background: #fafafa;
+}
+
+.details-toggle {
+    cursor: pointer;
+    color: #0066cc;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+}
+
+/* Vidinė lentelė detalėms */
+
+.details-row table {
+    border: none;
+}
+
+.details-row td,
+.details-row th {
+    border: none;
+    padding: 0.3rem 0.4rem;
+}
+
+/* Modal langas */
+
+#modal-overlay.hidden {
+    display: none;
+}
+
+#modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+#modal {
+    background: #fff;
+    padding: 1rem 1.5rem 1.5rem;
+    max-width: 600px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 6px;
+}
+
+#modal-close {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#modal table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#modal th,
+#modal td {
+    border: 1px solid #ddd;
+    padding: 0.4rem 0.6rem;
+}
+
+#modal th {
+    background: #eee;
+}
