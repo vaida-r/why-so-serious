@@ -95,18 +95,19 @@ section {
 }
 
 #rules-content {
-    font-size: 1rem; /*16px;*/
+    font-size: 1rem !important; /*16px;*/
     margin-top: 10px;
     white-space: pre-wrap;
     line-height: 1.4;
+    font-family: Arial, sans-serif;
 }
 
 @media (max-width: 600px) {
     #rules-content {
-        font-size: 0.5rem;
+        font-size: 0.5rem !important;
+        font-family: Arial, sans-serif;
     }
 }
-
 
 
 
