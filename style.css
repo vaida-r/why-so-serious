@@ -95,14 +95,14 @@ section {
 }
 
 #rules-content {
-    font-size: 1rem;       /*14px;*/
+    font-size: 16px;
     margin-top: 10px;
     white-space: pre-wrap;
 }
 
 @media (max-width: 600px) {
     #rules-content {
-        font-size: 0.9rem;
+        font-size: 10px;
     }
 }
 
