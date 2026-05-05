@@ -79,7 +79,7 @@ section {
 #rules-content-wrapper {
     max-height: 500px;       
     overflow-y: auto;        /* vertikalus scroll */
-    overflow-x: hidden;      /* kad nebūtų horizontalaus */
+    overflow-x: hidden;      
     transition: max-height 0.35s ease;
     padding-right: 6px;      /* kad scroll bar neužliptų ant teksto */
     scrollbar-width: none;   /* Firefox */
@@ -87,12 +87,7 @@ section {
 
 #rules-content-wrapper::-webkit-scrollbar {
     display: none; /* Chrome, Safari */
-/*    width: 8px; /* arba 0, jei nori visai paslėpti */*/
 }
-
-/*#rules-content-wrapper::-webkit-scrollbar-corner {*/
-/*    background: transparent;*/
-/*}*/
 
 #rules-content-wrapper.collapsed {
     max-height: 0;
@@ -100,7 +95,7 @@ section {
 }
 
 #rules-content-wrapper.expanded {
-    max-height: 500px;   
+    max-height: 400px;   
     display: block;
 }
 
@@ -182,7 +177,6 @@ section {
     #results-container td {
         font-size: 0.9rem;
         padding: 0.4rem 0.5rem;
- /*       white-space: nowrap; /* kad nesulūžtų į 2 eilutes */
     }
 }
 
