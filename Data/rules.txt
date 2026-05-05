@@ -2,12 +2,11 @@
    Pareitinguoti Lietuvoje vykstančių oskd varžybų dalyvius įvairiose tarpinėse trasų arba grupių fun kategorijose. Sezono bėgyje paskaičiuoti, sezono pabaigoje gal net prizą vieną kitą ištraukti :)
 
 2. Bendri dalykai
-   A    Imamos Lietuvoje vykstančios varžybos, ne masinės. Varžybos tokios, kurių rezultatus galima rasti dbsportas sistemoje.
+   A    Imamos Lietuvoje vykstančios varžybos, ne masinės. Varžybos tokios, kurių rezultatus galima rasti dbsportas.lt sistemoje.
    B    2026 metams numatomos tokios varžybos: visų rungčių Lietuvos čempionatai, MTBO Horizontas, Prienų Šilo taurė, Baltijos šalių čempionatas, Jūros šventė, Vilniaus taurė, galbūt Lietuvos taurės pirma diena.
-   C    Kiekvienose varžybose pasirinktų skaičiavimų kategorijų kiekis gali skirtis. Numatomos pagrindinės keturios: startas-pirmas punktas, paskutinis punktas - finišas, velnio tuzinas, unlucky 4th. Galimos ir kitokios kategorijos - didžiausia klaida, didžiausias užsispyrimas/atkaklumas, kalnietis (uphill arba downhill) ir pan. Kiekis priklauso nuo mano subjektyvaus nusiteikimo ir noro išskirti kažkurias kategorijas. Labai norima kategorija - istorija (kiekvienos varžybos arba varžybų diena - tai atskira istorija, kuria gali būti smagu pasidalinti su kitais).
+   C    Kiekvienose varžybose pasirinktų skaičiavimų kategorijų kiekis gali skirtis. Numatomos pagrindinės keturios: startas-pirmas punktas, paskutinis punktas - finišas, velnio tuzinas, unlucky 4th. Galimos ir kitokios kategorijos - auksinis taškas merginoms, didžiausia klaida, didžiausias užsispyrimas/atkaklumas, kalnietis (uphill arba downhill) ir pan. Kiekis priklauso nuo mano subjektyvaus nusiteikimo ir noro išskirti kažkurias kategorijas. Labai norima kategorija - istorija (kiekvienos varžybos arba varžybų diena - tai atskira istorija, kuria gali būti smagu pasidalinti su kitais).
    D    Visose kategorijose, kur žiūrimas geriausias vienas rezultatas arba geriausi trys rezultatai, viskas skaičiuojama atskirai tarp vyrų ir moterų. Tokios kategorijos yra visos, išskyrus dvi dalis iš velnio tuzino (3.3.B ir 3.3.D)
-   E    Priklausomai nuo to, kaip bus pateikti rezultatai dbsportas sistemoje, 20 ir 23 grupės gali būti išskirtos tose kategorijose, kur įskaita imama pagal grupes.
-   F    Auksinis taškas moterims už tai, kai jų rezultatas segmente yra geresnis už vyrų (3.1, 3.2, 3.3.A). Sezono eigoje tai gal net pasidarys atskira kategorija.
+   E    Priklausomai nuo to, kaip bus pateikti rezultatai dbsportas.lt sistemoje, 20 ir 23 grupės gali būti išskirtos tose kategorijose, kur įskaita imama pagal grupes.
 
 3. Kategorijos
 3.1 Startas - pirmas punktas
@@ -20,4 +19,6 @@
     C    jei grupėje yra bent 13 dalyvių, tai dalyvis, užėmęs tryliktą vietą grupėje, gauna tašką. /* Rezultatų detalėse stulpelyje Už ką įvardijamas "vieta" */
     D    jei trasoje yra bent 13 dalyvių, tai dalyvis, užėmęs tryliktą vietą, gauna tašką (galimas mix tarp vyrų moterų). Jei trasa varžybose skiriama tik vienai grupei, tai 3.3.D nesiskaičiuoja, t.y tryliktą vietą užėmęs dalyvis gauna tik vieną tašką (pagal 3.3.C). /* Rezultatų detalėse stulpelyje Už ką įvardijamas "vieta" */
 3.4 unlucky 4th
-    Į skaičiavimą imamas ketvirtą vietą kiekvienoje grupėje užėmęs dalyvis. Suskaičiuojamas jo atsilikimas nuo trečios vietos. Dalyviui įskaitoje duodamas 1 taškas ir imamas suskaičiuotas laikas. Sezono gale šitoje kategorijoje nelaimingiausias būna tas, kuris turi daugiausia taškų. Jei tokių dalyvių yra keli, tuomet nelaimingiausias tas, kurio išskaičiuotų laiko skirtumų suma yra mažiausia, t.y. per visas sezono varžybas mažiausiai atsiliko nuo prizinės vietos.
+    Į skaičiavimą imamas ketvirtą vietą kiekvienoje grupėje užėmęs dalyvis. Suskaičiuojamas jo atsilikimas nuo trečios vietos. Dalyviui įskaitoje duodamas 1 taškas ir imamas suskaičiuotas laikas. Sezono gale šitoje kategorijoje (ne)laimingiausias būna tas, kuris turi daugiausia taškų. Jei tokių dalyvių yra keli, tuomet (ne)laimingesnis tas, kurio išskaičiuotų laiko skirtumų suma yra mažiausia, t.y. per visas sezono varžybas mažiausiai atsiliko nuo prizinės vietos.
+3.5 Auksinis taškas
+    Skiriamas merginoms už tai, kad jų rezultatas segmente, kur žiūrimas geriausias laikas (3.1, 3.2, 3.3.A), yra geresnis už vyrų. 
