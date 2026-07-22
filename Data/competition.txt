@@ -4,4 +4,6 @@ comp_id;comp_name;date
 2603;LČ sprintas;2026-04-26
 2604;Šilo taurė 1 diena;2026-05-02
 2605;Šilo taurė 2 diena;2026-05-03
-
+2606;Baltic MTBO championship sprintas;2026-06-26
+2607;Baltic MTBO championship vidutinė;2026-06-27
+2608;Baltic MTBO championship/Lietuvos OSKD čempionatas mass startas;2026-06-28
