@@ -1,4 +1,4 @@
-runner_id;points;vt_golden_point;comp_id;for_what;time
+runner_id;points;golden_point;comp_id;for_what;time
 MicAl;1;1;2603;DM, DM20,DM23, DV35, DV45;01:45
 GriRo;1;0;2603;rez;00:00
 TraVy;1;0;2603;rez;00:00
