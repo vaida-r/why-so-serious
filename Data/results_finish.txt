@@ -109,7 +109,7 @@ comp_id;runner_id;time;points;golden_point
 2606;ZalJu;00:09;2;0
 2606;WroKr;00:09;2;0
 2606;LiuAr;00:09;2;0
-2606;DmuŠa;00:10;1;0
+2606;DmuSa;00:10;1;0
 2606;PraDa;00:10;1;0
 2606;ZigAi;00:10;1;0
 2606;SarAn;00:10;1;0
@@ -148,7 +148,7 @@ comp_id;runner_id;time;points;golden_point
 2607;AmbIg;00:10;2;0
 2607;MaiJo;00:10;2;0
 2607;ZerEm;00:10;2;0
-2607;DmuŠa;00:10;2;0
+2607;DmuSa;00:10;2;0
 2607;PriSa;00:10;2;0
 2607;PorAd;00:10;2;0
 2607;RauJo;00:10;2;0

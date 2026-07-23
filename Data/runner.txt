@@ -26,7 +26,7 @@ CelRa;Čelkys Radvilas;M
 CepRo;Čeplinskas Romas;M
 DekSa;Deksnienė Salvinija;W
 DinMi;Dinda Mindaugas;M
-DmuŠa;Dmukauskas Šarūnas;M
+DmuSa;Dmukauskas Šarūnas;M
 GodMa;Godinš Martinš;M
 GriMa;Grigaitis Mantas;M
 GriRo;Grikšas Rolandas;M
