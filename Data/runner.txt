@@ -27,7 +27,9 @@ CepRo;Čeplinskas Romas;M
 DekSa;Deksnienė Salvinija;W
 DinMi;Dinda Mindaugas;M
 DmuSa;Dmukauskas Šarūnas;M
+EkmDo;Ekman Dovilė;W
 GodMa;Godinš Martinš;M
+GriAu;Griškonienė Aurelija;W
 GriMa;Grigaitis Mantas;M
 GriRo;Grikšas Rolandas;M
 GriTa;Grikšelis Tauras;M
@@ -53,6 +55,7 @@ KarDa;Karaša Darius;M
 KasDo;Kašelionis Domantas;M
 KasEd;Kasevičius Edmundas;M
 KasRi;Kasiulevičius Rimvydas;M
+KauIn;Kauke Inese;W
 KavAz;Kavaliauskas Ąžuolas;M
 KavDz;Kavaliauskas Džiugas;M
 KavKr;Kavaliauskienė Kristina;W
@@ -61,6 +64,7 @@ KazDo;Kazlauskas Donatas;M
 KazJu;Kazakevičius Julius;M
 KazTa;Kazlauskas Tadas;M
 KieDa;Kiela Daumantas;M
+KisSi;Kisieliutė Silvija;W
 KliTo;Klicner Tomas;M
 KniRo;Kniukšta Romualdas;M
 KokVa;Kokorišs Valdis;M
@@ -70,9 +74,11 @@ KubSa;Kubilius Saulius;M
 KucGo;Kučejevaitė Goda;W
 KudGr;Kudarauskaitė Greta;W
 LenAn;Lenkauskaitė Andžela;W
+LitZi;Litvinaitė Živilė;W
 LiuAr;Liubartas Artūras;M
 LiuEv;Liubartas Evaldas;M
 LiuMe;Liutkutė Mėta Emilija;W
+LiuJu;Liubinskas Justinas;M
 LukIl;Lukina Ilze;W
 MacDa;Mačiulis Dainius;M
 MahIn;Mahla Indrek;M
@@ -81,6 +87,7 @@ MahMi;Mahla Mihkel;M
 MaiJo;Maišelis Jonas;M
 MalAr;Malūkas Arūnas;M
 MasRe;Masilionis Remigijus;M
+MauEg;Mauricė Eglė;W
 MazNo;Mažeika Nojus ;M
 MenRa;Mencevičius Rapolas;M
 MezMa;Mežsargs Martinš;M
@@ -88,6 +95,7 @@ MicAl;Mickuvienė Algirda;W
 MicKa;Mickevičiūtė-Juodišienė Karolina;W
 MicRo;Mickevičius Rokas;M
 MicTe;Mickutė Tėja;W
+MisMa;Misiūnas Matas;M
 MysIz;Myškina Izabelė;W
 MysLu;Myškina Luna;W
 MocMa;Mockus Martynas;M
@@ -167,11 +175,14 @@ VasVy;Vasilevičius Vytas;M
 WroKr;Wroniak Krzysztof;M
 ZalJu;Zaliauskas Juras;M
 ZalVi;Zaliauskas Vincas;M
+ZemEd;Žemaitis Edvinas;M
 ZerEm;Zernis Emils;M
 ZetAi;Zetmanis Aivis;M
 ZetRu;Zetmanis Rudolfs;M
 ZigAi;Žigilėjus Aidas;M
 ZilAz;Žilinskas Ąžuolas;M
+ZilDe;Žilovas Devis;M
 ZilKi;Žilinskienė Kira;W
+ZnoAr;Znotinas Arūnas;M
 ZubRo;Zubavičius Rokas;M
 ZviAr;Žvirblis Arvydas;M

@@ -7,3 +7,6 @@ comp_id;comp_name;date
 2606;Baltic MTBO championship sprintas;2026-06-26
 2607;Baltic MTBO championship vidutinė;2026-06-27
 2608;Baltic MTBO championship/Lietuvos OSKD čempionatas mass startas;2026-06-28
+2609;Jūros šventė 1 diena;2026-07-25
+2610;Jūros šventė 2 diena;2026-07-26
+
