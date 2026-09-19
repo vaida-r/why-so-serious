@@ -9,4 +9,8 @@ comp_id;comp_name;date
 2608;Baltic MTBO championship/Lietuvos OSKD čempionatas mass startas;2026-06-28
 2609;Jūros šventė 1 diena;2026-07-25
 2610;Jūros šventė 2 diena;2026-07-26
+2611;Vilniaus taurė 1 diena;2026-09-12
+2612;Vilniaus taurė 2 diena;2026-09-13
+2613;LČ ilga;2026-09-19
+
 
